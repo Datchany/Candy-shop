@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Candy Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Candy Shop</h1>
+  <form id="candyForm">
+    <input type="text" id="name" placeholder="Candy Name" required />
+    <input type="text" id="description" placeholder="Description" required />
+    <input type="number" id="price" placeholder="Price" required />
+    <input type="number" id="quantity" placeholder="Quantity" required />
+    <button type="submit">Add Item</button>
+  </form>
+
+  <ul id="candyList"></ul>
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+</html>
